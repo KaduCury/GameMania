@@ -1,0 +1,270 @@
+body {
+    background-color: #01003f;
+}
+
+header {
+    background-image: url(Imagens/fundoStars.png);
+}
+
+* {
+    font-family: sans-serif;
+}
+
+footer {
+    color:white;
+    font-weight: bold;
+    font-size: 200%;
+    margin-top: 100px;
+}
+
+#Promocoes, #Noticias, #WebGamedoMes, #FunnyAnimation {
+    margin: 10px;
+    text-align: center;
+}
+
+.carousel-item {
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.Menu {
+    flex-direction: row;
+    column-gap: 5px;
+    flex-wrap: wrap;
+}
+
+
+#linkMenu {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.Menu a span, .menuSpan {
+    display: none;
+}
+
+.funnyGif {
+    box-align: center;
+    width: 50%;
+    margin-top: 100px; 
+}
+
+.carousel-caption {
+    background-color: rgba(192, 192, 192, 0.7);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+.row {
+    text-align: center;
+    --bs-gutter-x: 0rem;;
+}
+
+#WebGamedoMes div:not(#logoWGM) {
+    width: 40%;
+    height: 650px;
+    margin: 0 auto;
+}
+#WebGamedoMes iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#logoPromocoes {
+    margin-bottom: -1%;
+    margin-top: 1%;
+    z-index: 99;
+    position: relative;
+    top: 20px;
+}
+
+#logoPromocoes a img {
+    width: 8vw;
+}
+
+#logoNoticias {
+    margin-bottom: -1%;
+    margin-top: 5%;
+    z-index: 99;
+    position: relative;
+    top: 20px;
+}
+
+#logoNoticias a img {
+    width: 13vw;
+}
+
+#logoWGM {
+    margin-bottom: -1%;
+    z-index: 99;
+}
+
+#logoWGM img {
+    width: 25vw;
+}
+
+#Rodape p {
+    text-align: left;
+}
+
+.imgFooter {
+    float: right;
+}
+
+.btn-secondaryFooter:hover {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0);
+    border-color: rgba(255, 54, 54, 0);
+}
+
+.btn-secondaryFooter:focus {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0);
+    border-color: rgba(255, 54, 54, 0);
+}
+
+.btn-secondaryFooter {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0);
+    border-color: rgba(255, 54, 54, 0);
+}
+
+#desenvolvido {
+    float: right
+}
+
+.Menu {
+    background: rgba(255, 54, 54, 0.92);
+    border: 2px solid rgba(204, 204, 204, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1px;
+    padding: 5px;
+}
+
+#TextoWGM h5 {
+    margin: 3% 10%;
+}
+
+#TextoWGM h2 {
+    margin: 2% 0% 1% 0%;
+}
+
+#FunnyAnimation img{
+    cursor: pointer;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0.92);
+    border-color: rgba(255, 54, 54, 0.92);
+}
+
+.position-relative {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0.92);
+    border-color: rgba(255, 54, 54, 0.92);
+}
+
+.btn-secondary:focus {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0.92);
+    border-color: rgba(255, 54, 54, 0.92);
+    box-shadow: 0 0 0 0rem rgb(130 138 145 / 0%);
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0.92);
+    border-color: rgba(255, 54, 54, 0.92);
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0.92);
+    border-color: rgba(255, 54, 54, 0.92);
+    box-shadow: 0 0 0 0rem rgb(130 138 145 / 0%);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0.92);
+    border-color: rgba(255, 54, 54, 0.92);
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+@media screen and (max-width: 759px) {
+    #btnLoja, #btnMapa{
+        width: 100px;
+        height: 12px;
+        font-size: 15px;
+    }
+    #colFooter, #colBtnFooterMap {
+        height: 48px;
+    }
+}
+
+@media screen and (max-width: 854px) {
+    nav {
+        display: none;
+    }
+
+    .badBowser, .bigLogo {
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    #dropdownMenuLink.btn.btn-secondary.dropdown-toggle::after{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+    .imgFoo img{
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 1529px) and (min-width: 1200px) {
+    .imgFoo img{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 1529px) {
+    #desenvolvido, #telend{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1859px) and (min-width: 1604px){
+    .Menu div {
+        color: white;
+    }    
+    
+    .Menu a span, .menuSpan {
+        display: inline;
+    }
+
+    #dropdownMenuLink.btn.btn-secondary.dropdown-toggle::after{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1860px) {
+    .Menu a span, .menuSpan {
+        display: inline;
+    }
+}
